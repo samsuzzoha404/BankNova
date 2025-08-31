@@ -1,0 +1,62 @@
+.cell_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+    -fx-cursor: hand;
+}
+
+/* Hover Effect */
+.cell_container:hover {
+    -fx-background-color: linear-gradient(to right, #f8fff8, #ffffff);
+    -fx-effect: dropshadow(gaussian, rgba(0,150,0,0.25), 15, 0.3, 0, 6);
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;
+    -fx-border-color: #cce5cc;
+    -fx-border-radius: 10;
+    -fx-border-width: 1.5;
+}
+
+.trans_icon_container {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+    -fx-spacing: 5;
+}
+
+.trans_date_lbl {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-weight: 700;
+}
+
+.trans_pAddress_lbl {
+    -fx-text-fill: #000000;
+    -fx-font-weight: 700;
+}
+
+.cell_container Line {
+    -fx-stroke: #EEEEEE;
+}
+
+.message_btn {
+    -fx-background-color: #FFFFFF;
+}
+
+.message_btn FontAwesomeIconView {
+    -fx-fill: #132A13;
+}
+
+.message_btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #90EE90;
+}
+
+.trans_amount_lbl {
+    -fx-background-color: #132A13;
+    -fx-background-radius: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5;
+    -fx-font-weight: 700;
+}
+
+.trans_amount_lbl FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+}
